@@ -1,5 +1,5 @@
-# AngularJS [`animal-friends`](https://github.com/j-d-b/animal-friends) clone
-A less-featured clone of `animal-friends`, built to practice [AngularJS](https://github.com/angular/angular.js).
+# AngularJS Animal Friends clone
+A less-featured clone of [`animal-friends`](https://github.com/j-d-b/animal-friends), built to practice [AngularJS](https://github.com/angular/angular.js).
 
 ## Usage
 Install the dependency packages.
