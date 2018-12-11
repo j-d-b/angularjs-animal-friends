@@ -1,0 +1,7 @@
+<div>
+  <div ng-repeat="animal in $ctrl.animals">
+    <span ng-if="animal.isFavorite">⭐️</span>
+    <span class="animal" ng-click="$ctrl.toggleFavorite(animal.id)">{{animal.image}}</span>
+    <span>{{animal.name}}</span>
+  </div>
+</div>

@@ -1,0 +1,9 @@
+<form>
+  <span>New Friend: </span>
+  <input placeholder="Name" ng-model="$ctrl.animalName"/>
+
+  <span>Type: </span>
+  <select ng-model="$ctrl.animalImage" ng-options="image for image in $ctrl.animalImages"></select>
+
+  <button type="submit" ng-click="$ctrl.addFriend()">ADD</button>
+</form>
