@@ -3,4 +3,4 @@ export default function () {
     const index = this.animals.findIndex(animal => animal.id === id);
     this.animals[index].isFavorite = !this.animals[index].isFavorite;
   };
-}
+};
