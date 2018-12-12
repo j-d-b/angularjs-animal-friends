@@ -8,9 +8,9 @@
   <body>
     <h1>Animal Friends</h1>
     <div ng-controller="MainCtrl as vm">
-      <add-friend animals="vm.animals"></add-friend>
-      <visibility-filter visibility-filter="vm.visibilityFilter"></visibility-filter>
-      <animals animals="vm.animals"></animals>
+      <add-friend add-animal="vm.addAnimal(image, name)"></add-friend>
+      <visibility-filter filter="vm.visibilityFilter" toggle-filter="vm.toggleVisibilityFilter()"></visibility-filter>
+      <animals animals="vm.animals" visibility-filter="vm.visibilityFilter"></animals>
     </div>
     <p><i>Click a friend to favorite ⭐️</i></p>
   </body>
