@@ -14,6 +14,4 @@ app.component('addFriend', AddFriend);
 app.component('visibilityFilter', VisibilityFilter);
 app.component('animals', Animals);
 
-document.addEventListener('DOMContentLoaded', function () {
-	angular.bootstrap(document, ['App']);
-});
+document.addEventListener('DOMContentLoaded', () => angular.bootstrap(document, ['App']));
